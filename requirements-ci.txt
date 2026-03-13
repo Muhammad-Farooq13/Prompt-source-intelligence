@@ -1,0 +1,14 @@
+# CI, testing, and development tools only
+# Install with: pip install -r requirements-ci.txt
+-r requirements.txt
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Linting
+ruff>=0.4.0
+
+# Training data download (CI only)
+datasets>=2.14.0
+huggingface-hub>=0.17.0
