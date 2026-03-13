@@ -69,7 +69,8 @@ def load_bundle():
     # Self-heal: rebuild with synthetic data
     try:
         from train_demo import train_demo
-        b = train_demo(quick=False, rebuild=True)
+        # Use quick rebuild on cloud/startup to avoid long first-load times.
+        b = train_demo(quick=True, rebuild=True)
         return b, "rebuilt"
     except Exception as exc:
         return None, str(exc)

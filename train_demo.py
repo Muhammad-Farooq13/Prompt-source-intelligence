@@ -458,7 +458,7 @@ def ensure_bundle(force: bool = False) -> dict:
                 pass  # corrupt — fall through to rebuild
 
     logger.warning("Bundle missing or corrupt — rebuilding from synthetic data …")
-    return train_demo(quick=False, rebuild=True)
+    return train_demo(quick=True, rebuild=True)
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
