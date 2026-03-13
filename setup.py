@@ -6,7 +6,7 @@ setup(
     description="End-to-end NLP prompt source classifier with Streamlit deployment",
     author="Muhammad Farooq",
     author_email="mfarooqshafee333@gmail.com",
-    url="https://github.com/Muhammad-Farooq-13/Prompt-source-intelligence",
+    url="https://github.com/Muhammad-Farooq13/Prompt-source-intelligence",
     python_requires=">=3.11",
     packages=find_packages(where=".", include=["src", "src.*"]),
     package_dir={"": "."},

@@ -6,7 +6,7 @@ End-to-end NLP classification project that trains, evaluates, and deploys a Stre
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange?logo=scikitlearn)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red?logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![CI](https://github.com/Muhammad-Farooq-13/Prompt-source-intelligence/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Muhammad-Farooq13/Prompt-source-intelligence/actions/workflows/ci.yml/badge.svg)
 
 ## Problem Statement
 
@@ -34,7 +34,7 @@ Prompt-source-intelligence/
 ## Setup
 
 ```bash
-git clone https://github.com/Muhammad-Farooq-13/Prompt-source-intelligence.git
+git clone https://github.com/Muhammad-Farooq13/Prompt-source-intelligence.git
 cd Prompt-source-intelligence
 
 python -m venv .venv
@@ -166,7 +166,7 @@ Runtime dependencies are separated from CI-only tooling to reduce Streamlit Clou
 
 Muhammad Farooq  
 Email: mfarooqshafee333@gmail.com  
-GitHub: https://github.com/Muhammad-Farooq-13
+GitHub: https://github.com/Muhammad-Farooq13
 
 ## License
 
